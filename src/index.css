@@ -53,3 +53,11 @@ ul li a:hover,
 ul li a.active {
   background-color: lightblue;
 }
+
+/* MAIN */
+
+h2 {
+  background-color: black;
+  color: white;
+  padding: 40px;
+}
