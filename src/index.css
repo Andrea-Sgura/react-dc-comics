@@ -66,6 +66,22 @@ main {
   height: 80px;
 }
 
+.comics-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.comic-card {
+  width: calc(100% / 6 - 40px);
+  height: auto;
+  margin: 20px;
+}
+
+.comic-card img {
+  max-width: 100%;
+}
+
 /* FOOTER */
 footer {
   background-image: url(./assets/img/footer-bg.jpg);
