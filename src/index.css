@@ -65,3 +65,20 @@ main {
 .png-image {
   height: 80px;
 }
+
+/* FOOTER */
+footer {
+  background-image: url(./assets/img/footer-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.top-footer {
+  background-image: url(/dc-logo-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.footer-menu {
+  height: 300px;
+}
