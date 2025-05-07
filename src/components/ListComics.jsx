@@ -160,18 +160,18 @@ const ListComics = () => {
         <div>
             <h2>List Comics</h2>
             <div className="comics-list">
-                <ComicCard />
-                <ComicCard />
-                <ComicCard />
-                <ComicCard />
-                <ComicCard />
-                <ComicCard />
-                <ComicCard />
-                <ComicCard />
-                <ComicCard />
-                <ComicCard />
-                <ComicCard />
-                <ComicCard />
+                <ComicCard title={comics[0].title} image={comics[0].thumb} />
+                <ComicCard title={comics[1].title} image={comics[1].thumb} />
+                <ComicCard title={comics[2].title} image={comics[2].thumb} />
+                <ComicCard title={comics[3].title} image={comics[3].thumb} />
+                <ComicCard title={comics[4].title} image={comics[4].thumb} />
+                <ComicCard title={comics[5].title} image={comics[5].thumb} />
+                <ComicCard title={comics[6].title} image={comics[6].thumb} />
+                <ComicCard title={comics[7].title} image={comics[7].thumb} />
+                <ComicCard title={comics[8].title} image={comics[8].thumb} />
+                <ComicCard title={comics[9].title} image={comics[9].thumb} />
+                <ComicCard title={comics[10].title} image={comics[10].thumb} />
+                <ComicCard title={comics[11].title} image={comics[11].thumb} />
             </div>
         </div>
     )
